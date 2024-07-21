@@ -1,0 +1,8 @@
+name: TempCoi
+version: '${project.version}'
+main: org.kyas.tempcoi.TempCoi
+api-version: '1.20'
+depend: [LuckPerms]
+permissions:
+  tempcoi.tempcoitimes:
+    default: op
